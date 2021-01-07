@@ -1,0 +1,94 @@
+body{
+  margin: auto;
+    background: bottom 40vh right 50vw url('images/bg-pattern-top.svg')  no-repeat,
+    top  50vh left 50vw url('images/bg-pattern-bottom.svg') no-repeat,
+    hsl(185, 75%, 39%);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 18px;
+}
+.container{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card{
+    width: 360px;
+    height: 400px;
+    max-width: 90vh;
+    max-height: 90vh;
+    display: grid;
+    grid-template-rows: 2fr 2.4fr 1.5fr;
+    margin-bottom: 10px;
+
+}
+.top{
+  background: center/cover url('images/bg-pattern-card.svg') no-repeat;
+   border-radius: 1em 1em 0 0;
+   display: block;
+}
+
+.center{
+  background-color: white;
+}
+img{
+  margin-top:calc(-106px/2);
+  border-radius: 50%;
+  background-color: inherit;
+  border: 5px solid white;
+  box-sizing: border-box;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  line-height: 0.3em;
+}
+span{
+  font-weight:300;
+  color:  hsl(0, 0%, 59%);
+}
+.lodon{
+  font-size: 0.8em;
+  color:  hsl(0, 0%, 59%);
+}
+.interactions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0.5em;
+  background-color: white;
+  border-radius: 0 0 1em 1em;
+  border-top: 1px solid hsl(0, 0%, 59%);
+
+}
+.followers{
+  font-size: 0.8em;
+  margin-left: 30px;
+}
+.likes{
+  font-size: 0.8em;
+
+}
+.photos{
+  font-size: 0.8em;
+  margin-right: 30px;
+}
+footer{
+  position: absolute;
+  top: 90vh;
+  text-align: center;
+  width: 100%;
+  font-size: 0.7em;
+  color: white;
+
+}
+a{
+    color: black;
+}
